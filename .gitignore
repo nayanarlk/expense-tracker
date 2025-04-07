@@ -43,3 +43,58 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/app/google-services.json
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/DerivedData/
+ios/.dart_tool/
+ios/Runner/GoogleService-Info.plist
+
+# Android
+.android/
+.gradle/
+**/gradle-wrapper.jar
+*.iml
+local.properties
+
+# VS Code & IntelliJ
+.vscode/
+.idea/
+
+# macOS
+macos/Flutter/Flutter.framework
+macos/Flutter/Flutter.podspec
+macos/Pods/
+macos/.symlinks/
+macos/DerivedData/
+macos/.dart_tool/
+
+# Web
+web/.dart_tool/
+
+# Firebase (important!)
+firebase-debug.log
+
+# Sensitive config (do NOT commit this if you have private info!)
+.env
+.env.*
+
+# Others
+*.log
+*.tmp
+*.swp
